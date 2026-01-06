@@ -11,7 +11,8 @@ public class DogRabit {
         while (true) {
             distantaIepure += 3 * sarituraIepure;
             distantaCaine += 2 * sarituraCaine;
-            boolean prins = distantaCaine >= distantaIepure + distantaInitiala;
+            boolean prins = distantaCaine >= distantaIepure
+                        + distantaInitiala;
             if (prins) {
                 System.out.println(distantaCaine + " cm");
                 System.out.println((distantaCaine / 100) + " m");
